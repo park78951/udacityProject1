@@ -1,0 +1,108 @@
+@media screen and (max-width: 780px) {
+    body {
+        font-size: 13px;
+    }
+
+/*
+*
+* Header (header part)
+*
+*/
+
+    .name {
+        height: 80px;
+    }
+
+    .logo {
+        width: 40%;
+    }
+
+    .logo img {
+        width: 140px;
+        height: auto;
+        padding-bottom: 5px;
+    }
+
+    .content {
+        width: 60%;
+    }
+
+}
+/*
+*
+* Low (footer part)
+*
+*/
+
+.smallPcis h2 {
+    font-size: 2.0em;
+}
+
+.container2 {
+    width: 100%;
+    height: 55%;
+}
+
+.picList h3 {
+    font-size: 1.5em;
+}
+
+.picList a {
+    font-size: 0.8em;
+}
+
+
+
+@media screen and (max-width: 550px) {
+    
+    body{
+        font-size: 11px;
+    }
+
+/*
+*
+* Header (header part)
+*
+*/
+
+    .logo img {
+        width: 120px;
+        height: auto;
+        padding-bottom: 5px;
+    }
+
+/*
+*
+* Low (footer part)
+*
+*/    
+
+    .smallPics {
+        width: 85%;
+        margin: 0 auto;
+
+    }
+
+    .smallPics h2 {
+        display: block;
+        text-align: center;
+        font-size: 3.5em;
+        margin-bottom: 30px;
+    }
+
+    .picList {
+        width: 100%;
+    }
+
+    .container2{
+        height: 60%;
+    }
+
+    .picList h3 {
+        font-size: 2.5em;
+    }
+
+    .picList a {
+        font-size: 1.5em;
+    }
+}

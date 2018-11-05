@@ -1,0 +1,134 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    max-width: 850px;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    font-size: 16px;
+}
+
+/*
+*
+* Header (header part)
+*
+*/
+
+.name {
+    display: flex;
+    flex-wrap: wrap;
+    height: 90px;
+    border-bottom: 5px solid #7d97ad;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+}
+
+.logo {
+    width: 20%;
+    order: -1;
+    position: relative;
+}
+
+.logo img {
+    width: 100%;    
+    height: 60%;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 5px;
+}
+
+.content {
+    margin: 0;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.content h1 {
+    display: block;
+    margin: 0;
+    text-align: right;
+    font-size: 3em;
+    font-weight: normal;
+    color: #2d3c49
+}
+
+.content h3 {
+    display: block;
+    margin: 0;
+    text-align: right;
+    font-weight: normal;
+    color: #2d3c49
+}
+
+/*
+*
+* Middle (section part)
+*
+*/
+
+.bigPic {
+    box-sizing: border-box;
+    width: 100%;
+    padding-top: 0;
+    margin-bottom: 50px;
+}
+
+.bigPic img {
+    width: 100%;
+}
+
+/*
+*
+* Low (footer part)
+*
+*/
+.smallPics h2 {
+    display: block;
+    font-size: 2.5em;
+    font-weight: normal;
+    color: #7d97ad;
+    margin: 10px;
+}
+
+.allPicList {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.picList {
+    width: 30%;
+    height: auto;
+}
+
+.container2 {
+    width: 100%;
+    height: 60%;
+}
+
+.container2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.picList h3 {
+    font-weight: normal;
+    font-size: 2.0em;
+    color: #2d3c49;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.picList a {
+    display: block;
+    text-decoration: none;
+    color: #2d3c49;
+    text-align: center;
+}
